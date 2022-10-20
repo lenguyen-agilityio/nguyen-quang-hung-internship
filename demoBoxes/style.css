@@ -1,0 +1,53 @@
+div.box {
+    height: 300px;
+    width: 300px;
+    background-color: #bbbbaa;
+}
+
+p {
+    height: 75%;
+    width: 75%;
+    background-color: #0088dd;
+}
+
+p.one {
+    border-style: solid;
+}
+
+p.two {
+    border-style: dotted;
+}
+
+p.three {
+    border-style: dashed;
+}
+
+p.four {
+    border-style: double;
+}
+
+p.five {
+    border-style: groove;
+}
+
+p.six {
+    border-style: ridge;
+}
+
+p.seven {
+    border-style: inset;
+}
+
+p.eight {
+    border-style: outset;
+}
+
+p.one {
+    border-style: solid;
+    border-color: #0088dd;
+}
+
+p.two {
+    border-style: solid;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
