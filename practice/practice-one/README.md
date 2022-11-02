@@ -1,4 +1,4 @@
-# Quang-Hung-html-css-training
+# QuangHung - HTML/CSS Training
 
 # PRACTICE HTML/CSS 1
 
@@ -21,11 +21,15 @@ This document provides the list of important technologies that would be used to 
 
 ### TIMELINE
 
-- 7 days
+- 8 days (Start: 27/10/2022 --> End: 8/11/2022)
 
 #### TARGET
 
-- HTML inspector
+- Understand HTML/CSS properties and use them correctly
+- Slice from Sketch to HTML/CSS
+- Understand the concepts of Flex
+
+- HTML inspector (<https://github.com/philipwalton/html-inspector>)
 - HTML5, CSS3
 - Flexbox
 
