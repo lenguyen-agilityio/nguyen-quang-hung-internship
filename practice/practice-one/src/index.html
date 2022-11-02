@@ -5,13 +5,192 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Practice-One</title>
   <link rel="stylesheet" href="style/style.css" type="text/css">
 </head>
 
 <body>
-  Demo
+  <!--header-->
+  <header class="header-container">
+    <div class="header-logo">
+      <a href="#">
+        <img src="./icon/icon-header.png" alt="icon Alex">
+      </a>
+    </div>
 
+    <!--menu navbar-->
+    <nav class="header-navbar">
+      <ul class="menu">
+        <li class="menu-item">
+          <a class="item-link" href="#">Services</a>
+        </li>
+        <li class="menu-item">
+          <a class="item-link" href="#">Portfolios</a>
+        </li>
+        <li class="menu-item">
+          <a class="item-link" href="#">Experience</a>
+        </li>
+        <li class="menu-item">
+          <a class="item-link" href="#">Blog</a>
+        </li>
+        <li class="menu-item">
+          <a class="item-link" href="#">...</a>
+        </li>
+      </ul>
+    </nav>
+    <!--header control => dark mode, button-->
+    <div class="header-control">
+      <div class="moon-icon">
+        <img src="./icon/icon-moon.png" alt="icon Moon">
+      </div>
+      <div class="button-resume">
+        <a href="#" class="btn">
+          Resume
+        </a>
+      </div>
+    </div>
+  </header>
+  <!--end header-->
+
+  <main>
+    <!--section profile-->
+    <section class="section-profile">
+      <div class="container">
+        <div class="user-information">
+          <div class="about-title">My name is</div>
+          <div class="full-name">Alex Smith.</div>
+          <p>Creative front-end developer with more than +5 years of experience in enterprise companies and startups.
+            Proficient in JavaScript, Angular, and React. Passionate about UI/UX
+          </p>
+          <div class="icon">
+            <a href="#">
+              <img src="./icon/icon-ins.png" alt="icon Instagram">
+            </a>
+            <a href="#">
+              <img src="./icon/icon-twiter.png" alt="icon Twitter">
+            </a>
+            <a href="#">
+              <img src="./icon/icon-git.png" alt="icon Github">
+            </a>
+            <a href="#">
+              <img src="./icon/icon-linkedin.png" alt="icon Linkedin">
+            </a>
+          </div>
+        </div>
+        <div class="user-image">
+          <img src="./img/picture.png" alt="picture of user">
+        </div>
+      </div>
+    </section>
+    <!--end section profile-->
+
+    <!--section services-->
+    <section class="section-services">
+      <div class="container">
+        <div class="title-services">
+          <h5>Services</h5>
+          <h2>Specialized in</h2>
+        </div>
+        <div class="services-item">
+          <div class="design-skill">
+            <img src="./icon/icon-design.png" alt="icon design">
+            <p>UI/UX Design</p>
+            <p>Turn what you have in mind of a digital product into reality. For any platform you consider.</p>
+          </div>
+          <div class="application-skill">
+            <img src="./icon/icon-application.png" alt="icon application">
+            <p>Application Development</p>
+            <p>Standard designing, building, and implementing your
+              applications with documentation.
+            </p>
+          </div>
+          <div class="web-skill">
+            <img src="./icon/icon-web.png" alt="icon web">
+            <p>Web Development</p>
+            <p>Create and maintain your websites and also take care of its performance
+              and traffic capacity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end section services-->
+
+    <!--section portfolios-->
+    <section class="section-portfolios">
+      <div class="container">
+        <div class="title-portfolios">
+          <h5>My works</h5>
+          <h2>Featured Portfolios</h2>
+        </div>
+        <div class="card">
+          <img src="./img/portfolio-item1.png" alt="image portfolio item">
+          <div class="card-title">Agency Website.</div>
+          <div class="card-item">
+            <p>WordPress</p>
+            <img src="./icon/icon-portfolio.png" alt="icon portfolio">
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/portfolio-item2.png" alt="image portfolio item">
+          <div class="card-title">Dashboard Website.</div>
+          <div class="card-item">
+            <p>React</p>
+            <img src="./icon/icon-portfolio.png" alt="icon portfolio">
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/portfolio-item3.png" alt="image portfolio item">
+          <div class="card-title">Support Center Website.</div>
+          <div class="card-item">
+            <p>PHP</p>
+            <img src="./icon/icon-portfolio.png" alt="icon portfolio">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end section portfolios-->
+
+    <!--section experience-->
+    <section class="section-experience">
+      <div class="container">
+        <div class="title-experience">
+          <h5>Career path</h5>
+          <h2>Work Experience</h2>
+        </div>
+        <div class="companies">
+          <ul class="list-companies">
+            <li>
+              <a href="#">Apple</a>
+            </li>
+            <li>
+              <a href="">Microsoft</a>
+            </li>
+            <li>
+              <a href="">Facebook</a>
+            </li>
+            <li>
+              <a href="">Slack</a>
+            </li>
+          </ul>
+        </div>
+        <div class="job-details">
+          <h4>Front-end Developer Apple .Inc</h4>
+          <p>California, United States</p>
+          <p>Nov 2020 - Present · Full-time</p>
+          <ul class="tag-list">
+            <li class="tag">Swift</li>
+            <li class="tag">Go</li>
+          </ul>
+          <p>Improving overall website performance for mobile users.</p>
+          <p>Collaborate with back-end developers and web designers to improve usability</p>
+          <p>Add voice search feature for mobile app.</p>
+          <p>Developing an admin panel to manage contents, users, products and ...</p>
+        </div>
+      </div>
+    </section>
+    <!--end section experience-->
+  </main>
 </body>
 
 </html>
