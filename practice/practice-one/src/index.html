@@ -206,7 +206,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...
             </p>
-            <a href="#">Continue Reading</a>
+            <a href="">Continue Reading</a>
           </div>
           <div class="card">
             <img src="./img/blog-item-2.png" alt="picture blog item">
@@ -215,7 +215,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...
             </p>
-            <a href="#">Continue Reading</a>
+            <a href="">Continue Reading</a>
           </div>
           <div class="card">
             <img src="./img/blog-item-3.png" alt="picture blog item">
@@ -224,7 +224,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Fusce id magna nec ante scelerisque laoreet. Fusce finibus ...
             </p>
-            <a href="#">Continue Reading</a>
+            <a href="">Continue Reading</a>
           </div>
         </div>
       </div>
@@ -239,19 +239,19 @@
           <h4>Testimonials</h4>
         </div>
         <div class="post-item">
-          <div class="post-item">
-            <img src="./img/testimonial-avatar-1.png" alt="" class="avatar">
+          <div class="post-item-details">
+            <img src="./img/testimonial-avatar-1.png" alt="testimonial avatar" class="avatar">
             <p>We were very pleased to hear how you resolved our website's user interface issues and challenges.</p>
             <p class="name">Amelia Miller</p>
             <p class="job-title">Designer</p>
           </div>
-          <div class="post-item">
-            <img src="./img/testimonial-avatar-2.png" alt="" class="avatar">
+          <div class="post-item-details">
+            <img src="./img/testimonial-avatar-2.png" alt="testimonial avatar" class="avatar">
             <p>We were very pleased to hear how you resolved our website's user interface issues and challenges.</p>
             <p class="name">James Delaney</p>
             <p class="job-title">Developer</p>
           </div>
-          <div class="post-item">
+          <div class="post-item-details">
             <img src="./img/testimonial-avatar-3.png" alt="" class="avatar">
             <p>The management of our projects was always faced with difficulties, but you handled these well.</p>
             <p class="name">Isabella Bennett</p>
@@ -294,21 +294,12 @@
           <div class="progress-bar-wrapper">
             <div class="progress-bar">
               <p class="label">React</p>
-              <div class="main-bar">
-                <div class="fill" data-width="70" style="width: 70%;"></div>
-              </div>
             </div>
             <div class="progress-bar">
               <p class="label">Angular</p>
-              <div class="main-bar">
-                <div class="fill" data-width="70" style="width: 70%;"></div>
-              </div>
             </div>
             <div class="progress-bar">
               <p class="label">JavaScript</p>
-              <div class="main-bar">
-                <div class="fill" data-width="70" style="width: 70%;"></div>
-              </div>
             </div>
           </div>
         </div>
@@ -319,31 +310,27 @@
     <!--section contact-->
     <section class="section-contact">
       <div class="container">
-        <div class="contact-form">
-          <form name="contactForm">
-            <div class="form-control">
-              <input name="name" class="input-name" type="text" placeholder="Name">
-            </div>
-            <div class="form-control">
-              <input name="name" class="input-name" type="text" placeholder="Email">
-            </div>
-            <div class="form-control">
-              <textarea name="message" placeholder="Message"></textarea>
-            </div>
-            <button class="btn">Submit</button>
-          </form>
-        </div>
+        <form name="contactForm">
+          <div class="form-control">
+            <input name="name" class="input-name" type="text" placeholder="Name">
+          </div>
+          <div class="form-control">
+            <input name="email" class="input-email" type="text" placeholder="Email">
+          </div>
+          <div class="form-control">
+            <textarea name="message" placeholder="Message"></textarea>
+          </div>
+          <button class="btn">Submit</button>
+        </form>
         <div class="contact-info">
           <div class="contact-info-item">
             <div class="contact-icon">
               <img src="./icon/icon-search.png" alt="">
             </div>
-            <div class="contact-content">
-              <h4 class="title-contact">Address</h4>
-              <p class="body-contact">
-                3424 Layman Avenue, Fayetteville, NC
-              </p>
-            </div>
+            <address class="contact-content">
+              Address<br>
+              3424 Layman Avenue, Fayetteville, NC
+            </address>
           </div>
           <div class="contact-info-item">
             <div class="contact-icon">
@@ -352,7 +339,7 @@
             <div class="contact-content">
               <h4 class="title-contact">Phone</h4>
               <p class="body-contact">
-                (501) 414-1541
+                <a href="">(501) 414-1541</a>
               </p>
             </div>
           </div>
@@ -363,7 +350,7 @@
             <div class="contact-content">
               <h4 class="title-contact">E-Mail</h4>
               <p class="body-contact">
-                devchapter@gmail.com
+                <a href="">devchapter@gmail.com</a>
               </p>
             </div>
           </div>
@@ -376,18 +363,18 @@
   <!--footer-->
   <footer>
     <div class="footer-icon">
-      <a href="#">
+      <a href="">
         <img src="./icon/icon-ins.png" alt="icon Instagram">
       </a>
-      <a href="#">
+      <a href="">
         <img src="./icon/icon-git.png" alt="icon Github">
       </a>
-      <a href="#"><img src="./icon/icon-twiter.png" alt="icon Twitter"></a>
-      <a href="#">
+      <a href=""><img src="./icon/icon-twiter.png" alt="icon Twitter"></a>
+      <a href="">
         <img src="./icon/icon-linkedin.png" alt="icon Linkedin">
       </a>
     </div>
-    <div class="coppyright">
+    <div class="copyright">
       © 2022 - Dev Chapter
     </div>
   </footer>
